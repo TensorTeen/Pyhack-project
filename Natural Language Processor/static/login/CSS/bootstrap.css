@@ -1,0 +1,49 @@
+.btn-square-sm {
+    width: 50px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 50px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:7px;
+    }
+    
+    .btn-square-md {
+    width: 100px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:12px;
+    }
+    
+    .btn-square-lg {
+    width: 150px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 150px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:18px;
+    }
+    
+    .btn-square-xl {
+    width: 200px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 200px !important;
+    text-align: center;
+    padding: 0px;
+    font-size:24px;
+    }
+
+    @media (max-width:767px) {
+    .btn-sq-responsive {
+    width: 100px !important; /* whatever width you want for medium screen */
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 100px !important; /* whatever height you want for medium screen */
+    font-size:12px;
+    }
+    }    

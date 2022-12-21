@@ -1,0 +1,11 @@
+{% extends 'main/base.html' %}
+{% block title %} Home Page {% endblock %}
+{% load crispy_forms_tags %}{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+<h2>What do you want to do today <b>{{user.username}} </b> ? </h2>
+<a href="/test" class="btn btn-secondary btn-square-xl"><h1>TEST</h1></a>
+<a href="/train" class="btn btn-secondary btn-square-xl"><h1>TRAIN</h1></a>
+<a href="/logout" class="btn btn-secondary btn-square-xl"><h1>LOGOUT</h1></a>
+
+{% endblock %}
