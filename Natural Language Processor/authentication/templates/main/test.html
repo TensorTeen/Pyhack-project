@@ -1,14 +1,17 @@
 {% extends 'main/base.html' %}
 {% block title %} Test {% endblock %}
 {% load crispy_forms_tags %}{% block content %}
+<p></p>
 <h2>Please Write Your Review Here:</h2>
+<p></p>
 <form action = "" method = "post">
     {% csrf_token %}
     {{form}}
     <input type="submit" value=Submit>
 </form>
-
+<div style="margin:auto; padding:30px; width:100%">
 <h3>Results:</h3>
 <h4>Score : <b>{{result}}</b></h4>
 <h4>Rating : <b>{{rating}}</b></h4>
+</div>
 {% endblock %}

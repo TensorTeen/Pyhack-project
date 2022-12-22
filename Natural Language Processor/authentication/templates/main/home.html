@@ -3,9 +3,15 @@
 {% load crispy_forms_tags %}{% block content %}
 {% load static %}
 <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-<h2>What do you want to do today <b>{{user.username}} </b> ? </h2>
-<a href="/test" class="btn btn-secondary btn-square-xl"><h1>TEST</h1></a>
-<a href="/train" class="btn btn-secondary btn-square-xl"><h1>TRAIN</h1></a>
-<a href="/logout" class="btn btn-secondary btn-square-xl"><h1>LOGOUT</h1></a>
+<div style="margin:auto; padding:70px">
+<div style="text-align:center; width:100%; align-content:center">
+<h2 style="padding:25px">What do you want to do today, <b>{{user.username}} </b> ? </h2><!-- added comma -->
+</div>
+<div style="display:flex; justify-content:space-evenly; width:70%; align-content:center; margin:auto"> <!-- use flex box? -->
+<a href="/test" class="btn btn-secondary btn-square-xl"><h3>TEST</h3></a>
+<a href="/train" class="btn btn-secondary btn-square-xl"><h3>TRAIN</h3></a>
+<a href="/logout" class="btn btn-secondary btn-square-xl"><h3>LOGOUT</h3></a>
+</div>
+<div>
 
 {% endblock %}

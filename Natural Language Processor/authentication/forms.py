@@ -18,7 +18,7 @@ class Test_TextForm(forms.Form) :
     Test_Text = forms.CharField(widget=forms.Textarea(attrs={"rows":5, "cols":200}),initial='Type Here',label=False)
 
 class TrainForm(forms.Form):
-    modelname = forms.CharField(label='Model Name : ')
-    epoch = forms.IntegerField(label='Epochs : ')
-    batch_size = forms.IntegerField(label='Batch Size : ')
+    modelname = forms.CharField(label='Model Name  ')
+    epoch = forms.IntegerField(label='Epochs  ')
+    batch_size = forms.IntegerField(label='Batch Size ')
 
