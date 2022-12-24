@@ -84,7 +84,7 @@ def review_encode(string:str):
     return encoded    
 
 
-def testing_data(filepath=None,txt=None,Modelfile=r'C:\Akshay\Workspace\Natural Language Processor\authentication\script\Runtime\trainedmodel.h5'):
+def testing_data(filepath=None,txt=None,Modelfile=r'.\authentication\script\Runtime\trainedmodel.h5'):
     """Tests the data using the given inputs
 
     Args:
